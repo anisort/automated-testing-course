@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://demo.opencart.cn",
+
+  "pages": [
+    {
+      "name": "Home page",
+      "url": "/",
+      "expectedText": "Desktops"
+    },
+    {
+      "name": "Registration page",
+      "url": "/index.php?route=account/register",
+      "expectedText": "Register"
+    },
+    {
+      "name": "Contact page",
+      "url": "/index.php?route=information/contact",
+      "expectedText": "Contact"
+    }
+  ],
+
+  "user": {
+    "firstname": "Test",
+    "lastname": "Student",
+    "password": "TestPassword123!"
+  },
+
+  "product": {
+    "search": "MacBook"
+  }
+}
