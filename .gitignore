@@ -3,3 +3,7 @@ lab1/node_modules
 lab2/node_modules
 lab3/node_modules
 lab4/node_modules
+lab5/node_modules
+lab5/.appium/node_modules
+.env
+lab5/ApiDemos-debug.apk
